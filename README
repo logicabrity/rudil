@@ -1,0 +1,34 @@
+= Rudil
+
+Rudil is a dice library for Ruby.
+
+== simple rolling
+
+creates a 6-sided die per default
+but you could also use Die.new(n) to
+ obtain a die with more sides.
+  die = Die.new
+
+returns the result of a single roll
+  die.roll
+  => 3
+
+returns results of any number of rolls as array
+  die.throw(5)
+  => [6, 5, 3, 1, 3]
+
+== analysing the results
+
+start with a die
+  die = Die.new(20)
+  
+collect the rolls in a throw
+  throw = Throw.new( die.throw(5) )
+
+Throw is a subclass of array with a few convenience methods added.
+You can get information about
+- the lowest roll
+- the highest roll
+- the mean
+- the number of rolls above a certain value (or equal and above)
+- the number of rolls below a certain value (or equal and below)
