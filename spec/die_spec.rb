@@ -1,5 +1,4 @@
-require File.dirname(__FILE__) + '/helper'
-require 'rudil/die'
+require File.dirname(__FILE__) + '/spec_helper'
 
 # classes dealing with random numbers are not easily unit-tested.
 # this number represents the number of dice-throwing to do until

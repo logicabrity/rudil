@@ -1,5 +1,4 @@
-require File.dirname(__FILE__) + '/helper'
-require 'rudil/throw'
+require File.dirname(__FILE__) + '/spec_helper'
 
 describe Throw do
   it "should be pretty when casted into string" do
