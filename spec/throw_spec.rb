@@ -1,4 +1,5 @@
-require 'lib/throw.rb'
+require File.dirname(__FILE__) + '/helper'
+require 'rudil/throw'
 
 describe Throw do
   it "should be pretty when casted into string" do
