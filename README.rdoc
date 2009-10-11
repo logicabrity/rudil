@@ -52,7 +52,10 @@ You can get information about
 
 == INSTALL:
 
-soon
+assuming you installed gemcutter
+* http://gemcutter.org
+all you need to do is:
+  gem install rudil
 
 == LICENSE:
 
