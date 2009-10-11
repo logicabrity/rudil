@@ -10,7 +10,7 @@ rudil is a dice library for ruby.
 
 Roll dice with any number of sides.
 Methods for single and multiple rolls.
-Retrieve useful about the rolls easily.
+Retrieve useful information about the rolls easily.
 
 == SYNOPSIS:
 
