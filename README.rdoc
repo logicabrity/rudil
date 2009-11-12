@@ -61,7 +61,7 @@ all you need to do is:
 
 (The MIT License)
 
-Copyright (c) 2009 FIXME full name
+Copyright (c) 2009 Marc-Antonio Bisotti
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
