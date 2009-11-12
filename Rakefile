@@ -14,6 +14,7 @@ $hoe = Hoe.spec 'rudil' do
   self.developer 'Marc-Antonio Bisotti', 'mail@marc-antonio.de'
   self.post_install_message = 'PostInstall.txt' # TODO remove if post-install message not required
   self.rubyforge_name       = self.name # TODO this is default value
+  self.readme_file = 'README.markdown'
   # self.extra_deps         = [['activesupport','>= 2.0.2']]
 
 end
