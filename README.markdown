@@ -11,9 +11,9 @@ rudil is a dice library for the Ruby programming language.
 FEATURES
 --------
 
-Roll dice with any number of sides.
-Methods provided for single and multiple rolls.
-Retrieve useful information about the rolls easily.
+Roll dice with any number of sides.   
+Methods provided for single and multiple rolls.  
+Retrieve useful information about the rolls easily.  
 
 INSTALL
 -------
@@ -67,6 +67,7 @@ To use it, collect the rolls in an instance of it:
     => [3, 6, 16, 13, 18]
 
 You can get information about
+
 - the lowest and the highest roll
     throws.lowest
     => 3    
