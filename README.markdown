@@ -69,19 +69,26 @@ To use it, collect the rolls in an instance of it:
 You can get information about
 
 - the lowest and the highest roll
+   
     throws.lowest
     => 3    
     throws.highest
     => 18
+
 - the mean (floating point)
+   
     throws.mean
     => 11.2
+
 - the number of rolls above a certain value (or equal and above)
+
     throws.above(13)
     => 2
     throws.eq_or_above(13)
     => 3
+
 - the number of rolls below a certain value (or equal and below)
+
    throws.below 3
    => 0
    throws.eq_or_below(3)
