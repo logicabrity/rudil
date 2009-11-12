@@ -19,24 +19,24 @@ describe Die do
 
   it "should roll an integer" do
     die = Die.new
-    die.roll.class.should == Fixnum
+    die.throw_once.class.should == Fixnum
   end
 
   it "should not roll a number smaller than one" do
     die = Die.new
-    collection = Array.new(NB_OF_ROLLS).fill { die.roll }
+    collection = Array.new(NB_OF_ROLLS).fill { die.throw_once }
     collection.sort[0].should == 1 
   end
 
   it "should not roll a number bigger than 6 per default" do
     die = Die.new
-    collection = Array.new(NB_OF_ROLLS).fill { die.roll }
+    collection = Array.new(NB_OF_ROLLS).fill { die.throw_once }
     collection.sort[NB_OF_ROLLS - 1].should == 6 
   end
 
   it "should not roll a number bigger than the number of sides" do
     die = Die.new(20)
-    collection = Array.new(NB_OF_ROLLS).fill { die.roll }
+    collection = Array.new(NB_OF_ROLLS).fill { die.throw_once }
     collection.sort[NB_OF_ROLLS - 1].should == 20 
   end
 
@@ -58,14 +58,14 @@ describe Die do
   
   it "should return the result after it has been thrown once" do
     die = Die.new()
-    die.stub!(:roll).and_return(6)
+    die.stub!(:throw_once).and_return(6)
     throw = die.throw(1)
     throw[0].should == 6
   end
 
   it "should return the result after it has been thrown any number of times" do
     die = Die.new()
-    die.stub!(:roll).and_return(1,2,3,4,5,6)
+    die.stub!(:throw_once).and_return(1,2,3,4,5,6)
     throw = die.throw(6)
     throw[0].should == 1
     throw[5].should == 6

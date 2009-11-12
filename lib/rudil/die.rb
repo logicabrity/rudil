@@ -19,10 +19,10 @@ module Rudil
       if times <= 0
         raise ArgumentError
       end
-      Array.new(times).fill { roll }
+      Array.new(times).fill { throw_once }
     end
 
-    def roll
+    def throw_once
       # the part where randomness happens has it's own method
       # to simplify unit-testing by permitting it to be stubbed.
       rand(@sides)+1
