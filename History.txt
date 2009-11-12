@@ -1,3 +1,9 @@
+=== 1.0.0 2009-11-12
+
+* 1 enhancement:
+  * renamed public method roll to throw_once to avoid
+  confusion beetween the roll and throw methods
+
 === 0.0.1 2009-10-11
 
 * 1 major enhancement:
