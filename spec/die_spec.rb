@@ -58,14 +58,14 @@ describe Die do
   
   it "should return the result after it has been thrown once" do
     die = Die.new()
-    die.stub!(:throw_once).and_return(6)
+    die.stub(:throw_once).and_return(6)
     throw = die.throw(1)
     throw[0].should == 6
   end
 
   it "should return the result after it has been thrown any number of times" do
     die = Die.new()
-    die.stub!(:throw_once).and_return(1,2,3,4,5,6)
+    die.stub(:throw_once).and_return(1,2,3,4,5,6)
     throw = die.throw(6)
     throw[0].should == 1
     throw[5].should == 6
