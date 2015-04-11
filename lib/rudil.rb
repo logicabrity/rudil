@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(libdir) unless
   $LOAD_PATH.include?(libdir) || $LOAD_PATH.include?(File.expand_path(libdir))
 
 module Rudil
-  VERSION = '1.0.0'
+  VERSION = '1.0.1'
 end
 
 require 'rudil/die'
