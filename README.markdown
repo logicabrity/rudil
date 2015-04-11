@@ -2,6 +2,7 @@ rudil
 =====
 
 [rudil's homepage on github](http://github.com/logicabrity/rudil)
+[![Gem Version](https://badge.fury.io/rb/rudil.svg)](http://badge.fury.io/rb/rudil)
 
 DESCRIPTION
 -----------
