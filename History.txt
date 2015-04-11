@@ -1,3 +1,8 @@
+=== 1.0.2 20015-04-11
+
+* 1 enhancement:
+  * Reworked Rakefile and rspec tasks.
+
 === 1.0.1 20015-04-11
 
 * 1 enhancement:
