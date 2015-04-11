@@ -4,7 +4,6 @@ module Rudil
       unless sides >= 1 and sides <= 120
         raise ArgumentError
         # "120 sides should be enough for anybody."
-        #   - sMAshdot
         # Such a die would be an Hexakis Icosahedron, and I challenge
         # anyone to build it.
         # The biggest manufactured die to date has 100 sides and is

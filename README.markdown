@@ -1,7 +1,7 @@
 rudil
 =====
 
-[rudil's homepage on github](http://github.com/sMAshdot/rudil)
+[rudil's homepage on github](http://github.com/logicabrity/rudil)
 
 DESCRIPTION
 -----------
