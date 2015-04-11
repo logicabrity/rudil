@@ -10,7 +10,7 @@ Hoe.plugin :newgem
 # Run 'rake -T' to see list of generated tasks (from gem root directory)
 $hoe = Hoe.spec 'rudil' do
   self.developer 'Marc-Antonio Bisotti', 'mail@marc-antonio.de'
-  self.url = "http://github.com/logicabrity/rudil"
+  self.urls = ["http://github.com/logicabrity/rudil"]
   self.summary = 'rudil is a dice library for the Ruby programming language.'
   self.description = "Throw dice with any number of sides any number of times. Helps you to interpret the results." 
   self.readme_file = 'README.markdown'
